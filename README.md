@@ -131,4 +131,6 @@ or
       --chart
 ```
 
-![alt text](https://gite.lirmm.fr/aelmeligy/software_energy_estimation/-/blob/master/Screenshot_from_2020-06-03_13-07-44.png)
+![alt text][logo]
+
+[logo]: https://gite.lirmm.fr/aelmeligy/software_energy_estimation/-/blob/master/Screenshot_from_2020-06-03_13-07-44.png "Screen Shot"

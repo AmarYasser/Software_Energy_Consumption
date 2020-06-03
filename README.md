@@ -75,27 +75,7 @@ exit
 ```
 
 
-### Configuration
-before using the package, we should adjust some [configuration](https://github.com/powerapi-ng/powerapi-scala/wiki/Modules) files
 
-you can find it in `powerapi-scala/powerapi-cli/target/universal/stage/conf
-`
-we now will adjust `./powerapi.conf` file 
-
-regarding to the formula used for this module the [TDP](https://en.wikipedia.org/wiki/Thermal_design_power), TDP factor and Frequencies/Voltage  values should be identified 
-
-theses value should be different for processors and could be found from the processors' Manufactures.
-
-```bash
-powerapi.cpu.tdp = 35
-powerapi.cpu.tdp-factor = 0.7
-powerapi.cpu.frequencies = [
-	{ value = 1800002, voltage = 1.31 }
-	{ value = 2100002, voltage = 1.41 }
-	{ value = 2400003, voltage = 1.5 }
-]
-
-```
 ## Test
 Now we can test the Tool using any running software on the system
 

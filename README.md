@@ -111,6 +111,51 @@ or
       --chart
 ```
 
-![alt text][logo]
+![Screen Shot][logo]
 
-[logo]: https://gite.lirmm.fr/aelmeligy/software_energy_estimation/-/blob/master/Screenshot_from_2020-06-03_13-07-44.png "Screen Shot"
+[logo]:https://github.com/AmarYasser/Software_Energy_Consumption/blob/master/Screenshot.png "Screen Shot"
+
+
+## References
+* https://github.com/powerapi-ng/powerapi-scala/wiki
+* http://powerapi.org
+* https://github.com/powerapi-ng/powerapi-scala/wiki/Getting-started-API
+* https://www.youtube.com/watch?v=NAGeLmgYNTw&t=1445s
+* https://gitter.im/Spirals-Team/powerapi
+* https://ercim-news.ercim.eu/en92/special/powerapi-a-software-library-to-monitor-the-energy-consumed-at-the-process-level
+* https://www.scala-sbt.org/1.x/docs/sbt-by-example.html
+
+
+
+## CPU Consumption
+
+The interest thing about PowerAPI is finding the power consumption at **_process level_**.
+
+But If you are not interested in this deep level of power estimation, You can use some interesting tools to find the global consumption of the CPU.
+
+#### for Windows
+
+* [Intel® Power Gadget](https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html).
+
+### for Linux
+
+* Power Statistics
+
+    There is a new power statistics history window. This can be accessed by clicking the battery item in the application indicator menu then selecting Laptop Battery tab.
+
+* [Powertop](https://github.com/fenrus75/powertop)
+
+    this program provides information on per process/device power usage, Check this [Guide]((https://01.org/sites/default/files/page/powertop_users_guide_201412.pdf)). 
+
+* [Powerstat](https://launchpad.net/~colin-king/+archive/ubuntu/powermanagement)
+
+    Another alternative that measures process/device power usage is powerstat that was written for Ubuntu by Colin King. There is a detailed review of its features on [hecticgeek.com](https://www.hecticgeek.com/powerstat-power-calculator-ubuntu-linux/).
+    It can be installed from the PPA: ppa:colin-king/powermanagement.
+
+* [CPU Energy Meter](https://github.com/sosy-lab/cpu-energy-meter)
+
+    Very Interesting tool to find the Energy per Kj consumed by the CPU, Check this [Post](https://www.sosy-lab.org/research/energy-measurement/).
+
+* [likwid](https://github.com/RRZE-HPC/likwid/releases/tag/v5.0.1)
+
+    Check their [Wiki](https://github.com/RRZE-HPC/likwid/wiki).
